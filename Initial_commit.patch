@@ -1,0 +1,16 @@
+Index: app/src/main/java/com/example/nabanilc/testprojectkotlin/Main2Activity.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/nabanilc/testprojectkotlin/Main2Activity.kt	(revision 0d86ffb6c58a1c7a793094e35cae849a72016528)
++++ app/src/main/java/com/example/nabanilc/testprojectkotlin/Main2Activity.kt	(date 1562656775494)
+@@ -26,7 +26,7 @@
+ 
+             val builder = AlertDialog.Builder(this@Main2Activity)
+ 
+-            builder.setMessage("Ok??????")
++            builder.setMessage("Ok msg has been changed??????")
+ 
+             builder.setPositiveButton("YES"){_,_ ->
+                 Toast.makeText(this@Main2Activity,"Its Ok",Toast.LENGTH_SHORT).show()
