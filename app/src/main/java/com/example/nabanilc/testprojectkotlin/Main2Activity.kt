@@ -25,6 +25,7 @@ class Main2Activity : AppCompatActivity() {
 
 
             val builder = AlertDialog.Builder(this@Main2Activity)
+
             builder.setMessage("Ok??")
 
             builder.setPositiveButton("YES"){_,_ ->
