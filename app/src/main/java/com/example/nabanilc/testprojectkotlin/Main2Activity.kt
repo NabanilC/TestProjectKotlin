@@ -26,7 +26,7 @@ class Main2Activity : AppCompatActivity() {
 
             val builder = AlertDialog.Builder(this@Main2Activity)
 
-            builder.setMessage("Ok??????")
+            builder.setMessage("Ok msg has been changed??????")
 
             builder.setPositiveButton("YES"){_,_ ->
                 Toast.makeText(this@Main2Activity,"Its Ok",Toast.LENGTH_SHORT).show()
